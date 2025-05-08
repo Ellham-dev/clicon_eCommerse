@@ -19,6 +19,7 @@ const LanguageCurrencySelector = () => {
                         setLanguageOpen(!languageOpen);
                         setCurrencyOpen(false);
                     }}
+                    className="cursor-pointer"
                 >
                     {selectedLanguage.slice(0, 3)} <span>▼</span>
                 </button>
@@ -31,7 +32,7 @@ const LanguageCurrencySelector = () => {
                                     setSelectedLanguage(lang);
                                     setLanguageOpen(false);
                                 }}
-                                className={`px-4 py-2 hover:bg-gray-200 cursor-pointer ${selectedLanguage === lang ? "font-bold text-orange-600" : ""
+                                className={`px-4 py-2 hover:bg-gray-200 cursor-pointer ${selectedLanguage === lang ? "font-bold text-[#EBC80C]" : ""
                                     }`}
                             >
                                 {lang}
@@ -48,6 +49,7 @@ const LanguageCurrencySelector = () => {
                         setCurrencyOpen(!currencyOpen);
                         setLanguageOpen(false);
                     }}
+                    className="cursor-pointer"
                 >
                     {selectedCurrency.includes("USD") ? "USD" : "EUR"} <span>▼</span>
                 </button>
@@ -60,7 +62,7 @@ const LanguageCurrencySelector = () => {
                                     setSelectedCurrency(cur);
                                     setCurrencyOpen(false);
                                 }}
-                                className={`px-4 py-2 hover:bg-gray-200 cursor-pointer ${selectedCurrency === cur ? "font-bold text-orange-600" : ""
+                                className={`px-4 py-2 hover:bg-gray-200 cursor-pointer ${selectedCurrency === cur ? "font-bold text-[#EBC80C]" : ""
                                     }`}
                             >
                                 {cur}
