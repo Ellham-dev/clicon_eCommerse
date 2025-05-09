@@ -57,31 +57,31 @@ const Header = () => {
             </header>
             <section className='flex items-center justify-between max-w-[1320px] mx-auto py-4'>
                 <div className="flex items-center gap-x-6">
-                    <div className="flex items-center gap-x-1.5 bg-[#F2F4F5] px-6 py-3.5 text-[#191C1F]">
+                    <div className="flex items-center gap-x-1.5 bg-[#F2F4F5] px-6 py-3.5 text-[#191C1F] cursor-pointer">
                         <span className='text-sm leading-5 font-medium'>All Category</span>
                         <ChevronDown size={16} />
                     </div>
-                    <div className="flex items-center gap-x-1.5 text-[#5F6C72]">
+                    <div className="flex items-center gap-x-1.5 text-[#5F6C72] cursor-pointer">
                         <MapPin size={24} />
                         <span className='text-sm leading-5 '>Track Order </span>
 
                     </div>
-                    <div className="flex items-center gap-x-1.5 text-[#5F6C72]">
+                    <div className="flex items-center gap-x-1.5 text-[#5F6C72] cursor-pointer">
                         <IoIosGitCompare size={24} />
                         <span className='text-sm leading-5 '>
                             Compare</span>
                     </div>
-                    <div className="flex items-center gap-x-1.5 text-[#5F6C72]">
+                    <div className="flex items-center gap-x-1.5 text-[#5F6C72] cursor-pointer">
                         <Headphones size={24} />
                         <span className='text-sm leading-5 '>Customer Support</span>
                     </div>
-                    <div className="flex items-center gap-x-1.5 text-[#5F6C72]">
+                    <div className="flex items-center gap-x-1.5 text-[#5F6C72] cursor-pointer">
                         <Info size={24} />
                         <span className='text-sm leading-5 '>Need Help</span>
                     </div>
 
                 </div>
-                <div className="flex items-center gap-x-2 text-[#191C1F]">
+                <div className="flex items-center gap-x-2 text-[#191C1F] cursor-pointer">
                 <Phone />
                 <span className='text-lg leading-6'>+1-202-555-0104</span>
                 </div>
