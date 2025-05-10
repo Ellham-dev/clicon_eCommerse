@@ -18,8 +18,8 @@ const Popup = () => {
                             <h5 className='font-semibold leading-12 text-[40px] text-[#EBC80C]'>59%</h5>
                             <span className='font-semibold leading-[28px] text-xl text-[#FFFFFF]'>OFF</span>
                         </div>
-                        <div className="flex items-center gap-x-2 bg-[#EBC80C] px-6 py-1.5 rounded-lg">
-                            <button className='font-bold leading-12 text-sm'>SHOP NOW</button>
+                        <div className="flex items-center gap-x-2 bg-[#EBC80C] px-6 py-1.5 rounded-lg cursor-pointer">
+                            <button className='font-bold leading-12 text-sm cursor-pointer'>SHOP NOW</button>
                             <ArrowRight size={20}/>
                         </div>
                     </div>
