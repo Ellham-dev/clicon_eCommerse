@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <>
             <section>
-                <div className="max-w-[1320px] mx-auto">
+                <div className="max-w-[1320px] mx-auto mb-6">
                     <div className="flex items-center gap-x-6">
                         {/* slider_part */}
                         <div className="bg-[#F2F4F5] flex items-center gap-x-9 p-[56px] w-[872px] relative">
