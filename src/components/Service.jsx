@@ -4,7 +4,7 @@ const Service = () => {
     return (
         <>
             <section>
-                <div className="max-w-[1320px] mx-auto">
+                <div className="max-w-[1320px] mx-auto mb-[72px]">
                     <div className="flex items-center justify-between border border-[#E4E7E9] p-8">
                         <div className="flex items-center gap-x-4">
                             <Truck color='#191C1F'size={40} />
