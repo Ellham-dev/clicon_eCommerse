@@ -13,6 +13,7 @@ const Service = () => {
                                 <p className='text-sm leading-5 text-[#5F6C72]'>Delivery in 24/H</p>
                             </div>
                         </div>
+                        <div className="bg-[#E4E7E9] h-[56px] w-0.5"></div>
                         <div className="flex items-center gap-x-4">
                             <Trophy  color='#191C1F'size={40} />
                             <div className="">
@@ -20,6 +21,7 @@ const Service = () => {
                                 <p className='text-sm leading-5 text-[#5F6C72]'>100% money-back guarantee</p>
                             </div>
                         </div>
+                        <div className="bg-[#E4E7E9] h-[56px] w-0.5"></div>
                         <div className="flex items-center gap-x-4">
                             <CreditCard color='#191C1F'size={40} />
                             <div className="">
@@ -27,6 +29,7 @@ const Service = () => {
                                 <p className='text-sm leading-5 text-[#5F6C72]'>Your money is safe</p>
                             </div>
                         </div>
+                        <div className="bg-[#E4E7E9] h-[56px] w-0.5"></div>
                         <div className="flex items-center gap-x-4">
                             <Headset color='#191C1F'size={40} />
                             <div className="">
