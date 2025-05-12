@@ -1,6 +1,8 @@
 import { ArrowRight } from 'lucide-react'
 import TimerOnly from './TimerOnly'
 import HotDealsProduct from './HotDealsProduct'
+import SingleProduct from './SingleProduct'
+import Drone1 from '/Drone1.png'
 
 const BestDeals = () => {
     return (
@@ -15,12 +17,19 @@ const BestDeals = () => {
                         </div>
                         <div className="flex items-center gap-x-2">
                             <h6 className='text-[#2DA5F3] text-sm leading-5 font-semibold'>Browse All Product</h6>
-                            <ArrowRight color='#2DA5F3'/>
+                            <ArrowRight color='#2DA5F3' />
                         </div>
                     </div>
                     <div className="">
                         <div className="">
-                            <HotDealsProduct/>
+                            <HotDealsProduct />
+                        </div>
+                        <div className="">
+                            <SingleProduct
+                                Src={Drone1}
+                                ProductName={"Bose Sport Earbuds - Wireless Earphones - Bluetooth In Ear..."}
+                                ProductPrice={"2,300"}
+                            />
                         </div>
                     </div>
                 </div>
