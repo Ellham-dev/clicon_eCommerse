@@ -3,6 +3,7 @@ import TimerOnly from './TimerOnly'
 import HotDealsProduct from './HotDealsProduct'
 import SingleProduct from './SingleProduct'
 import Drone1 from '/Drone1.png'
+import Mobail1 from '/Mobail1.png'
 
 const BestDeals = () => {
     return (
@@ -24,44 +25,44 @@ const BestDeals = () => {
                         <div className="">
                             <HotDealsProduct />
                         </div>
-                        <div className="flex flex-wrap">
+                        <div className="flex flex-wrap gap-y-1">
                             <SingleProduct
-                                Src={Drone1} 
+                                Src={Drone1}
                                 ProductName={"Bose Sport Earbuds - Wireless Earphones - Bluetooth In Ear..."}
                                 ProductPrice={"2,300"}
                             />
                             <SingleProduct
-                                Src={Drone1} 
+                                Src={Mobail1}
+                                ProductName={"Simple Mobile 4G LTE Prepaid Smartphone"}
+                                ProductPrice={"290"}
+                            />
+                            <SingleProduct
+                                Src={Drone1}
                                 ProductName={"Bose Sport Earbuds - Wireless Earphones - Bluetooth In Ear..."}
                                 ProductPrice={"2,300"}
                             />
                             <SingleProduct
-                                Src={Drone1} 
+                                Src={Drone1}
                                 ProductName={"Bose Sport Earbuds - Wireless Earphones - Bluetooth In Ear..."}
                                 ProductPrice={"2,300"}
                             />
                             <SingleProduct
-                                Src={Drone1} 
+                                Src={Drone1}
                                 ProductName={"Bose Sport Earbuds - Wireless Earphones - Bluetooth In Ear..."}
                                 ProductPrice={"2,300"}
                             />
                             <SingleProduct
-                                Src={Drone1} 
+                                Src={Drone1}
                                 ProductName={"Bose Sport Earbuds - Wireless Earphones - Bluetooth In Ear..."}
                                 ProductPrice={"2,300"}
                             />
                             <SingleProduct
-                                Src={Drone1} 
+                                Src={Drone1}
                                 ProductName={"Bose Sport Earbuds - Wireless Earphones - Bluetooth In Ear..."}
                                 ProductPrice={"2,300"}
                             />
                             <SingleProduct
-                                Src={Drone1} 
-                                ProductName={"Bose Sport Earbuds - Wireless Earphones - Bluetooth In Ear..."}
-                                ProductPrice={"2,300"}
-                            />
-                            <SingleProduct
-                                Src={Drone1} 
+                                Src={Drone1}
                                 ProductName={"Bose Sport Earbuds - Wireless Earphones - Bluetooth In Ear..."}
                                 ProductPrice={"2,300"}
                             />
