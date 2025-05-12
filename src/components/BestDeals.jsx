@@ -20,13 +20,48 @@ const BestDeals = () => {
                             <ArrowRight color='#2DA5F3' />
                         </div>
                     </div>
-                    <div className="">
+                    <div className="flex items-center">
                         <div className="">
                             <HotDealsProduct />
                         </div>
-                        <div className="">
+                        <div className="flex flex-wrap">
                             <SingleProduct
-                                Src={Drone1}
+                                Src={Drone1} 
+                                ProductName={"Bose Sport Earbuds - Wireless Earphones - Bluetooth In Ear..."}
+                                ProductPrice={"2,300"}
+                            />
+                            <SingleProduct
+                                Src={Drone1} 
+                                ProductName={"Bose Sport Earbuds - Wireless Earphones - Bluetooth In Ear..."}
+                                ProductPrice={"2,300"}
+                            />
+                            <SingleProduct
+                                Src={Drone1} 
+                                ProductName={"Bose Sport Earbuds - Wireless Earphones - Bluetooth In Ear..."}
+                                ProductPrice={"2,300"}
+                            />
+                            <SingleProduct
+                                Src={Drone1} 
+                                ProductName={"Bose Sport Earbuds - Wireless Earphones - Bluetooth In Ear..."}
+                                ProductPrice={"2,300"}
+                            />
+                            <SingleProduct
+                                Src={Drone1} 
+                                ProductName={"Bose Sport Earbuds - Wireless Earphones - Bluetooth In Ear..."}
+                                ProductPrice={"2,300"}
+                            />
+                            <SingleProduct
+                                Src={Drone1} 
+                                ProductName={"Bose Sport Earbuds - Wireless Earphones - Bluetooth In Ear..."}
+                                ProductPrice={"2,300"}
+                            />
+                            <SingleProduct
+                                Src={Drone1} 
+                                ProductName={"Bose Sport Earbuds - Wireless Earphones - Bluetooth In Ear..."}
+                                ProductPrice={"2,300"}
+                            />
+                            <SingleProduct
+                                Src={Drone1} 
                                 ProductName={"Bose Sport Earbuds - Wireless Earphones - Bluetooth In Ear..."}
                                 ProductPrice={"2,300"}
                             />

@@ -6,7 +6,7 @@ import { FaStar } from 'react-icons/fa'
 const HotDealsProduct = () => {
     return (
         <>
-            <div className="max-w-[330px] border border-[#E4E7E9] p-6 relative">
+            <div className="w-[330px] border border-[#E4E7E9] p-6 relative">
                 <div className=" mb-6">
                     <img src={xBox1} alt="" />
                     <div className="absolute left-4 top-4">
