@@ -35,6 +35,8 @@ const BestDeals = () => {
                                 Src={Mobail1}
                                 ProductName={"Simple Mobile 4G LTE Prepaid Smartphone"}
                                 ProductPrice={"290"}
+                                discountTxt={"30 %OFF"}
+                                badgeClass={"bg-[#EFD33D]"}
                             />
                             <SingleProduct
                                 Src={Drone1}

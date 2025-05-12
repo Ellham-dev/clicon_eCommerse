@@ -2,7 +2,7 @@
 import DiscountBadge from "./DiscountBadge"
 import { Eye, Heart, ShoppingCart } from 'lucide-react'
 
-const SingleProduct = ({ Src, className, ImgclassName, ProductName, ProductPrice }) => {
+const SingleProduct = ({ Src, className, discountTxt, ProductName, ProductPrice,badgeClass }) => {
     return (
         <>
             <div className={`${className} p-4 relative max-w-[247px] border border-[#E4E7E9]`}>
@@ -23,7 +23,7 @@ const SingleProduct = ({ Src, className, ImgclassName, ProductName, ProductPrice
                 <h3 className='text-sm leading-5 text-[#191C1F] mb-2'>{ProductName}</h3>
                 <p className="text-sm leading-5 font-semibold text-[#2DA5F3]">${ProductPrice}</p>
                 <div className="absolute top-3 left-3">
-                    <DiscountBadge  className={""}/>
+                    <DiscountBadge DiscountNum={discountTxt} className={badgeClass}/>
                 </div>
             </div>
         </>
