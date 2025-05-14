@@ -14,7 +14,7 @@ const BestDeals = () => {
     return (
         <>
             <section>
-                <div className="max-w-[1320px] mx-auto">
+                <div className="max-w-[1320px] mx-auto mb-[72px]">
                     <div className="flex items-center justify-between mb-6">
                         <div className="flex items-center gap-x-6">
                             <h5 className='text-2xl leading-8 font-semibold text-[#191C1F]'>Best Deals</h5>
