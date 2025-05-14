@@ -10,8 +10,8 @@ const HotDealsProduct = () => {
                 <div className=" mb-6">
                     <img src={xBox1} alt="" />
                     <div className="absolute left-4 top-4">
-                        <DiscountBadge DiscountNum={32} className={'mb-2'} />
-                        <p className='bg-[#EE5858] text-white text-[12px] leading-4 font-semibold max-w-[46px] px-2.5 py-1 rounded-sm'>HOT</p>
+                        <DiscountBadge className={"bg-[#EFD33D]"} DiscountNum={"30 %OFF"} />
+                        <p className='bg-[#EE5858] text-white text-[12px] leading-4 font-semibold max-w-[46px] px-2.5 py-1 rounded-sm mt-2'>HOT</p>
                     </div>
                 </div>
                 <div className="">
@@ -31,14 +31,14 @@ const HotDealsProduct = () => {
                     <p className='text-[#5F6C72] text-sm leading-5 mb-6'>Games built using the Xbox Series X|S development kit showcase unparalleled load times, visuals.</p>
                     <div className="flex items-center gap-x-2 rounded-lg">
                         <div className="bg-[#FFE7D6] p-3">
-                            <Heart size={24} color='#191C1F'/>
+                            <Heart size={24} color='#191C1F' />
                         </div>
                         <div className="bg-[#FA8232] p-3 flex items-center text-white space-x-1 rounded-lg">
-                            <ShoppingCart size={24}/>
+                            <ShoppingCart size={24} />
                             <p className='text-sm font-bold tracking-[1.2%]'>ADD TO CARD</p>
                         </div>
                         <div className="bg-[#FFE7D6] p-3 rounded-lg">
-                            <Eye size={24} color='#191C1F'/>
+                            <Eye size={24} color='#191C1F' />
                         </div>
                     </div>
                 </div>

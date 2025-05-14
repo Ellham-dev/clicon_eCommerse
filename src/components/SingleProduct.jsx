@@ -5,10 +5,10 @@ import { Eye, Heart, ShoppingCart } from 'lucide-react'
 const SingleProduct = ({ Src, className, discountTxt, ProductName, ProductPrice,badgeClass }) => {
     return (
         <>
-            <div className={`${className} p-4 relative max-w-[247px] border border-[#E4E7E9]`}>
+            <div className={`${className} px-4 py-[17px] relative max-w-[247px] border border-[#E4E7E9]`}>
                 <div className="relative group">
                     <img src={Src} alt={""} className={`mb-2 ${className}`} />
-                    <div className="absolute top-0 right-0 w-full h-full bg-black/20 hidden group-hover:flex items-center justify-center gap-x-2">
+                    <div className="absolute  top-0 right-0 w-full h-full bg-black/20 hidden group-hover:flex items-center justify-center gap-x-2">
                         <div className="bg-[#FA8232] rounded-full p-3">
                             <Heart size={24} color='#ffff' />
                         </div>
