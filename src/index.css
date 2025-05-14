@@ -1,4 +1,18 @@
 @import "tailwindcss";
-body{
+
+body {
     font-family: "Public+Sans";
+}
+
+/* Scrollbar Hide CSS */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    /* Internet Explorer and Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }
