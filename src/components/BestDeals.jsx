@@ -21,7 +21,7 @@ const BestDeals = () => {
                             <span className="text-sm leading-5 text-black">Deals ends in</span>
                             <TimerOnly targetDate="2025-05-31T23:59:59" />
                         </div>
-                        <div className="flex items-center gap-x-2">
+                        <div className="flex items-center gap-x-2 cursor-pointer">
                             <h6 className='text-[#2DA5F3] text-sm leading-5 font-semibold'>Browse All Product</h6>
                             <ArrowRight color='#2DA5F3' />
                         </div>
