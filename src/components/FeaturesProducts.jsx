@@ -1,8 +1,17 @@
-import React from 'react'
+import FutureProductPromoImage from '/FutureProductPromoImage.png'
 
 const FeaturesProducts = () => {
   return (
-    <div>FeaturesProducts</div>
+    <>
+    <section>
+      <div className="max-w-[1320px] mx-auto ">
+        <div className="">
+          <img src={FutureProductPromoImage} alt="" />
+        </div>
+         
+      </div>
+    </section>
+    </>
   )
 }
 
