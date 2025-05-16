@@ -1,5 +1,6 @@
 import { ArrowRight } from 'lucide-react'
 import FutureProductPromoImage from '/FutureProductPromoImage.png'
+import SingleFutureProduct from './SingleFutureProduct'
 
 const FeaturesProducts = () => {
   return (
@@ -28,7 +29,7 @@ const FeaturesProducts = () => {
                 </div>
               </div>
               <div className="">
-                
+                <SingleFutureProduct/>
               </div>
             </div>
           </div>
