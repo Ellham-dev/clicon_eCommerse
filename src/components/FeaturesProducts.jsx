@@ -2,6 +2,12 @@ import { ArrowRight } from 'lucide-react'
 import FutureProductPromoImage from '/FutureProductPromoImage.png'
 import SingleFutureProduct from './SingleFutureProduct'
 import TozoT6Phone from '/TozoT6Phone.png'
+import VivoPhone from '/VivoPhone.png'
+import Gemmer from '/Gemmer.png'
+import Drone2 from '/Drone2.png'
+import PC from '/PC.png'
+import Mobail1 from '/Mobail1.png'
+import CCTV from '/CCTV.png'
 
 const FeaturesProducts = () => {
   return (
@@ -39,56 +45,56 @@ const FeaturesProducts = () => {
                 badgeClass={"bg-[#2DA5F3] text-white" }
                 />
                 <SingleFutureProduct
-                Src={TozoT6Phone} 
-                saleTxt={"(345)"}
-                productName={"TOZO T6 True Wireless Earbuds Bluetooth Headphon..."}
-                productPrice={"$70"}
+                Src={VivoPhone} 
+                saleTxt={"(35)"}
+                productName={"Samsung Electronics Samsung Galexy S21 5G"}
+                productPrice={"$290"}
                 discountTxt={"HOT"}
                 badgeClass={"bg-[#191C1F] text-white" }
                 />
                 <SingleFutureProduct
-                Src={TozoT6Phone} 
-                saleTxt={"(345)"}
+                Src={Gemmer} 
+                saleTxt={"(122)"}
+                productName={"Bose Sport Earbuds - Wireless Earphones - Bluetooth In Ear..."}
+                productPrice={"$2,300"}
+                discountTxt={"SOLD"}
+                badgeClass={"bg-[#929FA5] text-white" }
+                />
+                <SingleFutureProduct
+                Src={Drone2} 
+                saleTxt={"(245)"}
                 productName={"TOZO T6 True Wireless Earbuds Bluetooth Headphon..."}
                 productPrice={"$70"}
                 discountTxt={"HOT SALES"}
                 badgeClass={"bg-[#2DA5F3] text-white" }
                 />
                 <SingleFutureProduct
-                Src={TozoT6Phone} 
-                saleTxt={"(345)"}
+                Src={PC} 
+                saleTxt={"(145)"}
                 productName={"TOZO T6 True Wireless Earbuds Bluetooth Headphon..."}
                 productPrice={"$70"}
                 discountTxt={"HOT SALES"}
                 badgeClass={"bg-[#2DA5F3] text-white" }
                 />
                 <SingleFutureProduct
-                Src={TozoT6Phone} 
-                saleTxt={"(345)"}
-                productName={"TOZO T6 True Wireless Earbuds Bluetooth Headphon..."}
-                productPrice={"$70"}
+                Src={CCTV} 
+                saleTxt={"(315)"}
+                productName={"JBL FLIP 4 - Waterproof Portable Bluetooth Speaker - Black"}
+                productPrice={"$250"}
                 discountTxt={"HOT SALES"}
                 badgeClass={"bg-[#2DA5F3] text-white" }
                 />
                 <SingleFutureProduct
-                Src={TozoT6Phone} 
-                saleTxt={"(345)"}
-                productName={"TOZO T6 True Wireless Earbuds Bluetooth Headphon..."}
-                productPrice={"$70"}
-                discountTxt={"HOT SALES"}
-                badgeClass={"bg-[#2DA5F3] text-white" }
+                Src={Mobail1} 
+                saleTxt={"(134)"}
+                productName={"Simple Mobile 4G LTE Prepaid Smartphone"}
+                productPrice={"$290"}
+                discountTxt={""}
+                badgeClass={"" }
                 />
                 <SingleFutureProduct
                 Src={TozoT6Phone} 
-                saleTxt={"(345)"}
-                productName={"TOZO T6 True Wireless Earbuds Bluetooth Headphon..."}
-                productPrice={"$70"}
-                discountTxt={"HOT SALES"}
-                badgeClass={"bg-[#2DA5F3] text-white" }
-                />
-                <SingleFutureProduct
-                Src={TozoT6Phone} 
-                saleTxt={"(345)"}
+                saleTxt={"(241)"}
                 productName={"TOZO T6 True Wireless Earbuds Bluetooth Headphon..."}
                 productPrice={"$70"}
                 discountTxt={"HOT SALES"}
