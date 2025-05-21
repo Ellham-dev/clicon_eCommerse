@@ -13,7 +13,7 @@ const FeaturesProducts = () => {
   return (
     <>
       <section>
-        <div className="max-w-[1320px] mx-auto ">
+        <div className="max-w-[1320px] mx-auto mb-[72px]">
           <div className="flex gap-x-6 justify-between items-center">
             <div className="cursor-pointer max-w-[312px]">
               <img src={FutureProductPromoImage} alt="" />
@@ -64,25 +64,25 @@ const FeaturesProducts = () => {
                 Src={Drone2} 
                 saleTxt={"(245)"}
                 productName={"TOZO T6 True Wireless Earbuds Bluetooth Headphon..."}
-                productPrice={"$70"}
-                discountTxt={"HOT SALES"}
-                badgeClass={"bg-[#2DA5F3] text-white" }
+                productPrice={"$290"}
+                discountTxt={""}
+                badgeClass={"" }
                 />
                 <SingleFutureProduct
                 Src={PC} 
                 saleTxt={"(145)"}
                 productName={"TOZO T6 True Wireless Earbuds Bluetooth Headphon..."}
                 productPrice={"$70"}
-                discountTxt={"HOT SALES"}
-                badgeClass={"bg-[#2DA5F3] text-white" }
+                discountTxt={""}
+                badgeClass={"" }
                 />
                 <SingleFutureProduct
                 Src={CCTV} 
                 saleTxt={"(315)"}
                 productName={"JBL FLIP 4 - Waterproof Portable Bluetooth Speaker - Black"}
                 productPrice={"$250"}
-                discountTxt={"HOT SALES"}
-                badgeClass={"bg-[#2DA5F3] text-white" }
+                discountTxt={"15% OFF"}
+                badgeClass={"bg-[#EFD33D]" }
                 />
                 <SingleFutureProduct
                 Src={Mobail1} 
